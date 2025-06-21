@@ -1,0 +1,51 @@
+==============================
+Návod na inštaláciu a spustenie Streamlit aplikácie
+==============================
+
+1. Inštalácia Pythonu
+--------------------
+
+- Windows (pomocou Chocolatey, ak ho máš nainštalovaný):
+  choco install python
+
+- Mac (pomocou Homebrew, ak ho máš nainštalovaný):
+  brew install python
+
+- Linux:
+  Použi správcu balíčkov svojej distribúcie, napríklad:
+  sudo apt-get install python3 python3-pip
+
+- Alternatívne stiahni oficiálny inštalátor zo stránky:
+  https://www.python.org/downloads/
+
+- Over inštaláciu v termináli alebo príkazovom riadku:
+  python --version
+  (alebo python3 --version na Mac/Linux)
+
+2. Inštalácia potrebných knižníc
+--------------------------------
+- Spusti:
+  pip install streamlit matplotlib pandas
+
+3. Príprava a spustenie aplikácie
+---------------------------------
+- Ulož svoj Python skript, napríklad ako:
+  2t_port_kalkulacka.py
+
+- V termináli prejdi do priečinka so skriptom, napríklad:
+  cd cesta/k/priecinku
+
+- Spusti aplikáciu príkazom:
+  streamlit run 2t_port_kalkulacka.py
+
+4. Používanie aplikácie
+-----------------------
+- Aplikácia sa otvorí v predvolenom prehliadači.
+
+5. Ukončenie aplikácie
+----------------------
+- V termináli stlač Ctrl + C
+
+------------------------------------
+Hotovo! Prajem príjemné používanie.
+------------------------------------
